@@ -60,6 +60,10 @@ Um porão com uma estante de fitas e uma TV ligada num canal sem sinal. Escuro d
 
 A página só carrega coisas do próprio endereço (Content-Security-Policy restritiva), não tem script nem estilo escrito dentro do HTML, não envia nada para lugar nenhum, não guarda nada no navegador e não tem cookie nem análise de visitas. O relatório está em [`docs/vistoria.md`](docs/vistoria.md).
 
+## Sons de cena (19/11/2026)
+
+Além dos cliques, o interruptor "Som" liga quatro sons de arquivo, todos do Freesound: a TV de tubo ligando (quando você liga o Som), o videocassete engolindo a fita (Tocar), a fita saindo (Parar e fim da fita) e um chiado baixo de estática (quando a TV do topo falha e quando o contador pula na leitura). Nada é baixado nem tocado antes de você ligar o Som, e desligar corta tudo na hora. Os autores e as licenças estão no rodapé do site e em `licencas/sons-freesound.txt`. O som da TV ligando (CC BY-NC) é só para uso não comercial.
+
 ## Onde ficam os arquivos
 
 - `index.html`, `404.html` e `404.css`: a página e o aviso de fita não encontrada.
@@ -67,7 +71,8 @@ A página só carrega coisas do próprio endereço (Content-Security-Policy rest
 - `fitas/`: `indice.json` e um `.md` por conto.
 - `fonts/`: as duas fontes da página 404.
 - `img/marca/`: a assinatura M1L! | RTJ.
-- `licencas/`: licenças das bibliotecas e das fontes.
+- `sons/`: quatro sons pequenos do Freesound (TV ligando, fita entrando, fita saindo, chiado de estática).
+- `licencas/`: licenças das bibliotecas, das fontes e dos sons (`sons-freesound.txt`).
 - `tests/site.cjs`: os testes (`node tests/site.cjs`).
 - `docs/`: capturas e a vistoria de segurança.
 

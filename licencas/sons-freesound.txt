@@ -1,0 +1,24 @@
+Sons de cena de A Biblioteca de Fitas (Freesound)
+
+Todos foram cortados, normalizados em volume e convertidos para MP3 mono para o site (pasta sons/).
+
+1. fita-entra.mp3 e fita-sai.mp3
+   "Video Recorder Load Cassette 01" (267831) e "Video Recorder Eject Cassette" (267832)
+   Autor: magedu
+   Licença: Creative Commons Atribuição 4.0 (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
+   https://freesound.org/people/magedu/sounds/267831/
+   https://freesound.org/people/magedu/sounds/267832/
+
+2. estatica.mp3 (trecho de 16 segundos)
+   "Analog CRT TV Electronic Static Noise" (546047)
+   Autor: grcekh
+   Licença: CC0 1.0 (domínio público), https://creativecommons.org/publicdomain/zero/1.0/
+   https://freesound.org/people/grcekh/sounds/546047/
+
+3. tv-liga.mp3
+   "ComTV Turning On The CRT TV 2 (1 close, without speaker noise and glitch)" (789063)
+   Autor: newlocknew
+   Licença: Creative Commons Atribuição NãoComercial 4.0 (CC BY-NC 4.0), https://creativecommons.org/licenses/by-nc/4.0/
+   https://freesound.org/people/newlocknew/sounds/789063/
+   ATENÇÃO: esta licença NÃO permite uso comercial. Se o site ou o podcast passar a render dinheiro (anúncio, apoio pago, venda),
+   remova tv-liga.mp3 e a chamada de 'tv-liga' em src/sfx.js, e tire o crédito do rodapé.

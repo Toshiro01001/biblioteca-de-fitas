@@ -43,3 +43,7 @@ Efeitos novos: névoa, poeira, falha da TV, sombra, título que corrompe, estát
 ## Som da interface (19/11/2026)
 
 Biblioteca nova: `uisfx` 0.4.0 (MIT, licença em `licencas/uisfx-MIT.txt`), compilada dentro do site; os sons são sintetizados no navegador, sem arquivo de áudio e sem requisição externa. A política de segurança (CSP) ficou igual. O áudio só é criado depois de um gesto do usuário e o som começa desligado. A preferência (ligado e volume) fica só no `localStorage` do aparelho, sem dado pessoal. Testes passaram em 1280x900, iPhone 13 e 320 px.
+
+## Sons de cena (19/11/2026)
+
+Quatro arquivos MP3 de cerca de 300 KB no total, em `sons/`, servidos do próprio site: a política de segurança (CSP) não mudou (`media-src 'self'`). Sem requisição externa, sem dado pessoal. Nada é baixado antes de o Som ser ligado e os sons "de fundo" só tocam depois de um gesto do usuário. Licenças: magedu CC BY 4.0, grcekh CC0, newlocknew CC BY-NC 4.0 (uso não comercial), com crédito no rodapé e em `licencas/sons-freesound.txt`. Testes passaram em 1280x900, iPhone 13 e 320 px.
