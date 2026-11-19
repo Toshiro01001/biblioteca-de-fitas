@@ -39,3 +39,7 @@ Pontos apontados e decisão:
 ## Terror (19/11/2026)
 
 Efeitos novos: névoa, poeira, falha da TV, sombra, título que corrompe, estática na leitura e som sintetizado. Sem biblioteca nova, sem arquivo de áudio, sem requisição externa, sem script ou estilo inline; a política de segurança (CSP) ficou igual. A estática usa uma imagem `data:` já permitida em `img-src`. Tudo tem versão parada (sem WebGL, "reduzir movimento"). O som só começa depois do toque em "Ligar o gravador". Testes passaram em 1280x900, iPhone 13, 320 px, com "reduzir movimento" e sem WebGL.
+
+## Som da interface (19/11/2026)
+
+Biblioteca nova: `uisfx` 0.4.0 (MIT, licença em `licencas/uisfx-MIT.txt`), compilada dentro do site; os sons são sintetizados no navegador, sem arquivo de áudio e sem requisição externa. A política de segurança (CSP) ficou igual. O áudio só é criado depois de um gesto do usuário e o som começa desligado. A preferência (ligado e volume) fica só no `localStorage` do aparelho, sem dado pessoal. Testes passaram em 1280x900, iPhone 13 e 320 px.

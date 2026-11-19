@@ -35,6 +35,10 @@ Eu acrescentei ao porão da capa uma névoa rasteira e poeira que sobe na luz da
 ![Sombra cruzando a estante](docs/terror-sombra-desktop.webp)
 ![Leitura com estática e contador 666](docs/terror-leitura-celular.webp)
 
+## Som da interface (19/11/2026)
+
+Eu acrescentei sons discretos de interface com o pacote `uisfx`, personalidade `mechanical` (cliques secos de fita e relé). Há um interruptor **Som** na barra do topo e, no rodapé, o mesmo interruptor com volume. Ele começa **desligado**, não toca sozinho e a escolha fica salva no seu aparelho. Os sons marcam só ações que importam: escolher e abrir uma fita, voltar, próxima, rebobinar e as teclas do gravador. O som de teste do gravador continua separado: só toca quando se aperta Tocar.
+
 ## Como funciona por dentro
 
 - **Uma página só, com duas telas.** A estante e a leitura são a mesma página. O endereço depois do `#` decide qual aparece: `#/` é a estante, `#/fita/000` é a leitura. Por isso o GitHub Pages não precisa de nada especial.
