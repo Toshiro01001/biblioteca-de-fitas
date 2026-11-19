@@ -1,0 +1,13 @@
+/* Página 404 da Biblioteca de Fitas: folha própria, sem script. */
+@font-face { font-family: 'IM Fell DW Pica SC'; font-display: swap; font-weight: 400; src: url('fonts/im-fell-sc.woff2') format('woff2'); }
+@font-face { font-family: 'Courier Prime'; font-display: swap; font-weight: 700; src: url('fonts/courier-prime-700.woff2') format('woff2'); }
+* { box-sizing: border-box; }
+html { background: #07080a; color-scheme: dark; min-height: 100%; }
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; padding: 24px; background: radial-gradient(60% 40% at 50% 44%, #1b2530 0%, #0b0d10 55%, #07080a 100%); color: #d8d0bd; font: 400 17px/1.6 Georgia, 'Times New Roman', serif; }
+main { max-width: 600px; }
+.rotulo { display: inline-flex; align-items: center; gap: 10px; margin: 0; font: 700 14px/1 'Courier Prime', 'Courier New', monospace; color: #a39d8e; }
+.led { width: 9px; height: 9px; border-radius: 50%; background: #e0241b; box-shadow: 0 0 10px rgba(224, 36, 27, .7); }
+h1 { margin: 18px 0 0; font: 400 clamp(38px, 8vw, 72px)/.98 'IM Fell DW Pica SC', 'Times New Roman', serif; }
+p { margin: 18px 0 0; color: #a39d8e; }
+.botao { display: inline-flex; align-items: center; min-height: 48px; margin-top: 28px; padding: 12px 22px; background: #d8d0bd; color: #15130f; border-radius: 3px; font: 700 15px/1.2 'Courier Prime', 'Courier New', monospace; text-decoration: none; }
+.botao:focus-visible { outline: 2px solid #d8d0bd; outline-offset: 3px; }

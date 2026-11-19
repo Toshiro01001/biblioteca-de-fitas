@@ -1,0 +1,11 @@
+[
+  {
+    "numero": "000",
+    "titulo": "Leia antes de ouvir",
+    "tipo": "nota",
+    "data": "2026-11-18",
+    "minutos": 2,
+    "resumo": "A fita zero não conta história nenhuma. Ela explica como a biblioteca funciona e o que você vai encontrar na estante.",
+    "arquivo": "000.md"
+  }
+]
