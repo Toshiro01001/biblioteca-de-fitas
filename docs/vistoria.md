@@ -35,3 +35,7 @@ Pontos apontados e decisão:
 - **JavaScript ocupa 1,4 s no carregamento (médio):** pendente. É a medição em celular simulado, sem placa de vídeo, e o WebGL só liga depois do `load`. Possível melhora: carregar a cena e o som sob demanda.
 - **Sem imagem de compartilhamento (og:image) e sem sitemap:** pendentes, a pedido do dono.
 - **github.io, redirecionamento http para https e dados estruturados:** o endereço é do GitHub Pages (o https já abre); o domínio próprio fica para quando o dono quiser.
+
+## Terror (19/11/2026)
+
+Efeitos novos: névoa, poeira, falha da TV, sombra, título que corrompe, estática na leitura e som sintetizado. Sem biblioteca nova, sem arquivo de áudio, sem requisição externa, sem script ou estilo inline; a política de segurança (CSP) ficou igual. A estática usa uma imagem `data:` já permitida em `img-src`. Tudo tem versão parada (sem WebGL, "reduzir movimento"). O som só começa depois do toque em "Ligar o gravador". Testes passaram em 1280x900, iPhone 13, 320 px, com "reduzir movimento" e sem WebGL.

@@ -27,6 +27,14 @@ Hoje a estante tem **uma fita só: a fita 000**, uma nota minha que explica como
 | ![A estante e a ficha da fita](docs/estante-desktop.webp) | ![Leitura da fita 000 no celular](docs/leitura-celular.webp) |
 | ![O gravador](docs/gravador-desktop.webp) | |
 
+## O terror (19/11/2026)
+
+Eu acrescentei ao porão da capa uma névoa rasteira e poeira que sobe na luz da lanterna. De tempos em tempos a TV falha, o título "A Biblioteca de Fitas" treme e se separa em vermelho e azul, e uma sombra cruza a estante. Na leitura há uma estática fraca e o contador da fita pula para 666 de vez em quando. O gravador ganhou um tom grave desconfortável, um coração lento ao fundo e, de longe em longe, um sussurro ou uma pancada surda, tudo gerado em código, sem arquivo de áudio. Com "reduzir movimento" ou sem WebGL, tudo fica parado.
+
+![TV falhando e título corrompido](docs/terror-falha-desktop.webp)
+![Sombra cruzando a estante](docs/terror-sombra-desktop.webp)
+![Leitura com estática e contador 666](docs/terror-leitura-celular.webp)
+
 ## Como funciona por dentro
 
 - **Uma página só, com duas telas.** A estante e a leitura são a mesma página. O endereço depois do `#` decide qual aparece: `#/` é a estante, `#/fita/000` é a leitura. Por isso o GitHub Pages não precisa de nada especial.
